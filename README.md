@@ -10,7 +10,7 @@ This Python-based tool makes multi-accounting on Roblox simple, stable, and full
 
 Designed for convenience and accessibility, it works instantly on any windows machine, no configuration, no patching, and no browser extensions required. Just start the program, open your browsers, and enjoy as many Roblox accounts as you need running at the same time.
 
-![Demo](https://i.imgur.com/L1ygvYi.gif)
+![Demo](assets/demo.gif)
 
 ---
 
