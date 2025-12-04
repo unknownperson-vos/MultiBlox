@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/python-3.9+-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%2F11-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
 # MultiBlox
 This Python-based tool makes multi-accounting on Roblox simple, stable, and fully automated. Once the program is running, users can open Roblox from any browser and log into different accounts without conflicts or forced logouts. The program takes care of session isolation behind the scenes, allowing seamless multi-session gameplay without modifying Roblox files or requiring complex setups.
 
