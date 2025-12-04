@@ -1,0 +1,1 @@
+powershell -Command "Start-Process pythonw -ArgumentList '\"%cd%\MultiBlox.pyw\"' -Verb RunAs"
