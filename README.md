@@ -57,7 +57,7 @@ Roblox locks certain handles to prevent multiple sessions. MultiBlox uses handle
 
 ## 🎮 How to Use MultiBlox
 
-1. Open MultiBlox using `Start.bat`  
+1. Open MultiBlox using `START.bat`  
 2. Open any browser (Chrome, Edge, Firefox, Opera, etc.)  
 3. Log into a Roblox account and press **Play**  
 4. Repeat in another browser or private window for additional accounts  
