@@ -1,2 +1,3 @@
 # MultiBlox
-Simple way to open multiple roblox sessions
+This Python-based tool makes multi-accounting on Roblox simple, stable, and fully automated. Once the program is running, users can open Roblox from any browser and log into different accounts without conflicts or forced logouts. The program takes care of session isolation behind the scenes, allowing seamless multi-session gameplay without modifying Roblox files or requiring complex setups.
+Designed for convenience and accessibility, it works instantly on any windows machine, no configuration, no patching, and no browser extensions required. Just start the program, open your browsers, and enjoy as many Roblox accounts as you need running at the same time.
