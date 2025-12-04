@@ -1,1 +1,0 @@
-powershell -Command "Start-Process python -ArgumentList '\"%cd%\MultiBlox.py\"' -Verb RunAs"
