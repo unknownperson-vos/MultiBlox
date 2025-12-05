@@ -5,7 +5,7 @@
 
 [![Download](https://img.shields.io/badge/Download-Release-blue?style=for-the-badge&logo=github)](https://github.com/unknownperson-vos/MultiBlox/releases/download/multiblox/MultiBlox.rar)
 
-# ![icon](https://cdn.discordapp.com/attachments/1437646588859383889/1446356424430059682/roblox-logo-roblox-icon-transpar213131313ent-free-png_1_cropped.png?ex=6933afe3&is=69325e63&hm=4e3ad5c082c4309b14292337d29f5ada75c8da6a256c550b0cdaae29eb625012) MultiBlox
+# ![icon](https://cdn.discordapp.com/attachments/1437646588859383889/1446356649907322891/roblox-logo-roblox-icon-transpar213131313ent-free-png_2_cropped.png?ex=6933b019&is=69325e99&hm=3e3ca4dfc9f08bfb482d81860487e3e840482d9ad296400837f3af074c2312f8) MultiBlox
 
 This Python-based tool makes multi-accounting on Roblox simple, stable, and fully automated. Once the program is running, users can open Roblox from any browser and log into different accounts without conflicts or forced logouts. The program takes care of session isolation behind the scenes, allowing seamless multi-session gameplay without modifying Roblox files or requiring complex setups.
 
