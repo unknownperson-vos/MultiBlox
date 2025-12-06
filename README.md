@@ -15,6 +15,7 @@ Designed for convenience and accessibility, it works instantly on any windows ma
 
 ---
 ## 🤙 For Support
+
 Join our discord server for any questions, bugs, suggestions, etc
 https://discord.gg/tMtdpUSrdM
 ---
