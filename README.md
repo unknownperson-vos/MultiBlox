@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-orange)
 ![GitHub all releases](https://img.shields.io/github/downloads/unknownperson-vos/MultiBlox/total)
 
-[![Download](https://img.shields.io/badge/Download-Latest-blue?style=for-the-badge&logo=github)](https://github.com/unknownperson-vos/MultiBlox/releases/latest/download/MultiBlox.rar)
+[![Download](https://img.shields.io/badge/Download-Latest-blue?style=for-the-badge&logo=github)](https://github.com/unknownperson-vos/MultiBlox/releases/latest/download/MultiBlox_v003.rar)
 
 # ![icon](https://cdn.discordapp.com/attachments/1437646588859383889/1446356649907322891/roblox-logo-roblox-icon-transpar213131313ent-free-png_2_cropped.png?ex=6933b019&is=69325e99&hm=3e3ca4dfc9f08bfb482d81860487e3e840482d9ad296400837f3af074c2312f8) MultiBlox
 
