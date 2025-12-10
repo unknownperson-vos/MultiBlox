@@ -1,0 +1,94 @@
+#==== What Is "handle64.exe"? ====# 
+
+MultiBlox includes a file named handle64.exe, which is an official tool created by Microsoft Sysinternals.  
+It is not malware, not modified, and never obfuscated.
+
+Handle is a legitimate command‑line utility used to:
+
+- View open handles in Windows processes  
+- Close handles inside a process  
+- Inspect file, registry, and event handles  
+
+MultiBlox uses "handle64.exe" only for one purpose:
+
+-> To close the ROBLOX_singletonEvent handle, which prevents Roblox from blocking multiple instances.
+
+This is the same technique used by many legitimate developers and system administrators.
+
+
+#==== Is "handle64.exe" Safe? ====#
+
+Yes, it is 100% legitimate and made by Microsoft.
+
+Official Microsoft page:  
+https://learn.microsoft.com/sysinternals/downloads/handle
+
+VirusTotal scan of the unmodified file:  
+https://www.virustotal.com/gui/file/24bafcc570cc9bbb6b6e6652a57a519e0464e3996891aaba6f55299cce20b04f/detection
+
+Sysinternals tools are trusted by:
+
+✔ Microsoft engineers  
+✔ Windows system administrators  
+✔ Enterprise IT environments  
+
+MultiBlox does not modify the tool in any way.
+
+
+#==== Want to Replace "handle64.exe" With Your Own Copy? ====#
+
+If you still prefer not to use the bundled file, you can manually download your own copy from Microsoft and replace it.
+
+Here’s how:
+
+Step 1 -> Download Handle from Microsoft Sysinternals
+
+1. Open the official Microsoft page:  
+   https://learn.microsoft.com/sysinternals/downloads/handle
+2. Click "Download Handle"
+3. Extract the .zip file somewhere on your PC
+
+Inside the extracted folder you will find:
+
+- handle.exe (32‑bit)
+- handle64.exe (64‑bit)
+
+
+Step 2 -> Use the Correct Version
+
+Roblox runs as a 64‑bit process, so MultiBlox MUST use:
+
+-> handle64.exe
+
+❌ Do NOT use "handle.exe" (the 32‑bit version)  
+It will not work and cannot access Roblox process handles.
+
+
+Step 3 -> Replace the File in MultiBlox
+
+1. Go to your MultiBlox folder  
+2. Delete the old handle64.exe 
+3. Take your downloaded handle64.exe from Microsoft  
+4. Copy it into the MultiBlox folder (same place as Start.bat / MultiBlox)
+5. Done, MultiBlox will automatically use your version
+
+
+#==== How to Verify the File Yourself (Optional) ====#
+
+If you want full transparency, you can:
+
+- Upload your version of "handle64.exe" to VirusTotal  
+- Compare the hash with Microsoft’s official version  
+- Open the .zip from Sysinternals and verify the signatures
+
+Microsoft Sysinternals executables are digitally signed by:
+-> Right-click → Properties → Digital Signatures → View Certificate to confirm.
+
+
+#==== Summary ====#
+
+- "handle64.exe" is an official Microsoft Sysinternals tool
+- MultiBlox uses it ONLY to close a Roblox handle safely
+- It is NOT modified or obfuscated
+- It may trigger false positives because it’s a system tool
+- Users can easily replace it with their own Microsoft copy
