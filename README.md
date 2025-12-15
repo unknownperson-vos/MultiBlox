@@ -12,6 +12,8 @@
 **MultiBlox** is an advanced, beginner-friendly **Roblox multi-instance manager** written in Python with a full graphical interface.  
 It allows you to run **multiple Roblox accounts at the same time** by automatically handling Roblox’s singleton restrictions, monitoring processes in real-time, and giving you deep insight into each running instance.
 
+**Requires no setup, run MultiBlox, then simply join with as many roblox accounts as you want via browsers or bootstrappers. That's it.**
+
 MultiBlox is designed to work not only with the **default Roblox launcher** and on **browsers**, but also with **custom bootstrappers**.
 
 Roblox normally prevents you from opening more than one client at a time using internal **mutexes and events**.  
