@@ -19,14 +19,6 @@ MultiBlox is designed to work not only with the **default Roblox launcher**, but
 - ✅ **Voidstrap**
 - ✅ Other custom Roblox bootstrappers
 
-## 📌 Repository Navigation
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Usage](#-usage)
-- [Requirements](#-Requirements (Source Code))
-- [Configuration](#-notes)
-
 ---
 
 ![Demo](assets/demo.gif)
