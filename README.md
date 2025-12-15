@@ -33,10 +33,6 @@ Link : https://discord.gg/tMtdpUSrdM
 
 ---
 
-![MultiBlox Demo](https://cdn.discordapp.com/attachments/1437646588859383889/1450229350933860484/python_eUQjVebckg.png?ex=6941c6d5&is=69407555&hm=4d63d7ee5dd461fbba629e22a635ff7a71362e106ca7b659f4c7169cfee45f92)
-
----
-
 ## ✨ Features
 
 - ✅ Bypasses Roblox single-instance limitations automatically
@@ -99,6 +95,10 @@ Link : https://discord.gg/tMtdpUSrdM
 - ✅ Open-source and transparent
 - ✅ Designed for stability and safety
 - ✅ Educational and personal-use focused
+
+---
+
+![MultiBlox Demo](https://cdn.discordapp.com/attachments/1437646588859383889/1450229350933860484/python_eUQjVebckg.png?ex=6941c6d5&is=69407555&hm=4d63d7ee5dd461fbba629e22a635ff7a71362e106ca7b659f4c7169cfee45f92)
 
 ---
 
