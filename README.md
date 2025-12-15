@@ -9,9 +9,17 @@
 
 # ![icon](https://cdn.discordapp.com/attachments/1437646588859383889/1446356649907322891/roblox-logo-roblox-icon-transpar213131313ent-free-png_2_cropped.png?ex=6933b019&is=69325e99&hm=3e3ca4dfc9f08bfb482d81860487e3e840482d9ad296400837f3af074c2312f8) MultiBlox
 
-This Python-based tool makes multi-accounting on Roblox simple, stable, and fully automated. Once the program is running, users can open Roblox from any browser and log into different accounts without conflicts or forced logouts. The program takes care of session isolation behind the scenes, allowing seamless multi-session gameplay without modifying Roblox files or requiring complex setups.
+**MultiBlox** is an advanced, beginner-friendly **Roblox multi-instance manager** written in Python with a full graphical interface.  
+It allows you to run **multiple Roblox accounts at the same time** by automatically handling Roblox’s singleton restrictions, monitoring processes in real-time, and giving you deep insight into each running instance.
 
-Designed for convenience and accessibility, it works instantly on any windows machine, no configuration, no patching, and no browser extensions required. Just start the program, open your browsers, and enjoy as many Roblox accounts as you need running at the same time.
+MultiBlox is designed to work not only with the **default Roblox launcher**, but also with **custom bootstrappers** such as:
+
+- ✅ **Bloxstrap**
+- ✅ **Fishstrap**
+- ✅ **Voidstrap**
+- ✅ Other custom Roblox bootstrappers
+
+---
 
 ![Demo](assets/demo.gif)
 
@@ -25,60 +33,215 @@ Link : https://discord.gg/tMtdpUSrdM
 
 ---
 
----
+## 🧠 Overview
 
-## 📋 Features
+Roblox normally prevents you from opening more than one client at a time using internal **mutexes and events**.  
+MultiBlox automatically detects newly launched Roblox processes, **closes the required handles**, and lets you open **as many Roblox instances as your system can handle**.
 
-- ✅ **Real-Time Instance Detection**  
-  Automatically detects running `RobloxPlayerBeta.exe` processes and tracks active instances.  
+On top of that, MultiBlox provides:
+- Real-time process detection
+- Roblox account identification (username, user ID, avatar)
+- Per-instance process analytics
+- Custom automation (scripts on open/close)
+- Extensive logging & debugging tools
+- A clean, modern GUI
 
-- ✅ **Singleton Event Handle Management**  
-  Uses `handle64.exe` from Sysinternals to bypass Roblox’s singleton lock, allowing multiple instances to run simultaneously.  
-  - Employs **strong regex detection** and multiple fallback methods to reliably identify the correct handle.  
-  - Automatically closes `ROBLOX_singletonEvent` handles to prevent instance conflicts.  
-  - Retries handle detection up to 5 times for maximum reliability.  
-
-- ✅ **Quarantine & Restore Roblox Installers**  
-  Automatically quarantines old Roblox installers to prevent unwanted updates and restores them safely when needed.  
-
-- ✅ **Automatic Updater Integration**  
-  Detects and runs `Updater.py` or `Updater.exe` if present for seamless updates.  
-
-- ✅ **Low CPU Usage Monitoring**  
-  Continuously monitors Roblox processes efficiently without heavy CPU load.   
-
-- ✅ **GUI-Based Control**  
-  Clean and simple Tkinter interface with dynamic instance counter.   
-
-- ✅ **Safe Exit Handling**  
-  Restores installers and cleans up before exiting to prevent data loss.  
-
-- ✅ **Threaded Architecture**  
-  Multi-threaded for responsive GUI and background tasks without lag.
+All of this runs **locally**, without injecting code into Roblox.
 
 ---
 
-## ✅ Requirements
+## ✨ Features (We REALLY did the most)
 
-- **Python 3.9+** *(Recommended: Python 3.9)*  
-- Windows 10/11  
-- Administrator privileges *(required for Roblox handle management)*  
+### 🧩 Multi-Instance Core
+- ✅ Automatically bypasses Roblox single-instance restrictions
+- ✅ Closes `ROBLOX_singletonEvent` and `ROBLOX_singletonMutex`
+- ✅ Supports **custom regex-based handle detection**
+- ✅ Optional **forced handle closure** when Roblox is stubborn
+- ✅ Works with **custom Roblox bootstrappers**
 
 ---
 
-## 🚀 Installation
+### 🔍 Real-Time Process Detection
+- Live detection of:
+  - New Roblox processes
+  - Closed Roblox processes
+- Automatic updates to the instance list
+- Animated activity indicator when Roblox is running
 
-1. **Install dependencies**  
-   Run: ```INSTALL.bat```
+---
 
-This will automatically install all required Python modules.
+### 👤 Roblox Account Detection
+- Automatically extracts **UserID** from Roblox logs
+- Fetches:
+  - Username
+  - Profile picture
+- Displays account info per PID
+- Gracefully handles rate limits & missing data
 
-2. **Start MultiBlox as Administrator**  
-Run: ```START.bat```
+---
 
-This ensures MultiBlox has the necessary permissions to manage Roblox sessions.
+### 📊 Per-Instance Process Information
+For every Roblox instance, you can view:
+- PID
+- Roblox version
+- Launch time & uptime
+- CPU usage
+- RAM usage
+- Thread count (with stability rating)
+- Handle status (Event & Mutex)
 
-![MultiBlox Demo](https://cdn.discordapp.com/attachments/1437646588859383889/1445961852021379112/pythonw_oXiRjsSH7o.png?ex=6932406a&is=6930eeea&hm=391f1578e5baaee9132426268517d80fecf27a04b2839dcf267d61c87144c538)
+All displayed in a clean dedicated window.
+
+---
+
+### ⚙️ Advanced Settings Panel
+Toggle features instantly with visual feedback:
+
+- 🔁 Mutant (Mutex) Closer
+- 📦 Quarantine Roblox Installers (TEMP-based)
+- 📝 Save logs on exit
+- 💪 Force handle closure
+- 🧊 Low CPU mode (dynamic sleep scaling)
+
+All settings are saved automatically to:
+```
+data/configs/configs.json
+```
+
+---
+
+### 🧪 Custom Regex Engine
+Add your own regex patterns to:
+- Detect custom `singletonEvent`
+- Detect custom `singletonMutex`
+
+Perfect for:
+- Custom Roblox builds
+- Modified clients
+- Future Roblox updates
+
+---
+
+### 🤖 Automation & Custom Scripts
+Run scripts automatically:
+- 🟢 When Roblox opens
+- 🔴 When Roblox closes
+
+Supported file types:
+- `.py`
+- `.ps1`
+- `.bat`
+- `.js`
+- `.go`
+
+Perfect for:
+- Auto VPN switching
+- Account setup
+- Logging
+- Monitoring tools
+
+---
+
+### 🗂 Installer Quarantine System
+- Temporarily moves `RobloxPlayerInstaller.exe` to TEMP
+- Prevents Roblox from force-updating while MultiBlox is open
+- Automatically restores installers on exit
+
+---
+
+### 🧾 Advanced Logging
+- Color-coded logs:
+  - ✅ SUCCESS (green)
+  - ❌ FAILED (red)
+  - ℹ️ INFO (orange)
+- Logs can be automatically saved to: ``data/logs/``
+- Unique timestamped filenames
+
+---
+
+### 🧠 Low CPU Mode
+- Dynamically reduces CPU usage when idle
+- Ideal for long-running sessions
+
+---
+
+### 📖 Built-in Documentation
+- Step-by-step in-app documentation
+- Beginner friendly
+- No external links required
+
+---
+
+### 💬 Community & Support
+- One-click Discord invite
+- Clipboard auto-copy for invite link
+
+---
+
+### 💖 Donations
+MultiBlox is **free & open-source**.  
+If you want to support development, donations are accepted in:
+
+- 🟠 Bitcoin (BTC) : bc1qq3kuqn39h4uf2kr80230gqrj8k4gf9sx5ppzuf
+- 🔵 Ethereum (ETH) : 0xb89E00a5C4d73239697470B6415f65671F4beb2D
+- 🟣 Litecoin (LTC) : LSkcr4zrSM2kF6W19F6VMi7ic2nSEAoibY
+
+Any amount is appreciated ❤️  
+The **best way to support** is:
+- ⭐ Starring this repository
+- 💬 Joining the Discord
+
+---
+
+## ▶️ Usage
+
+### Option 1: Prebuilt Executable
+1. Download the release
+2. Extract the folder
+3. Run `MultiBlox.exe`
+4. Launch Roblox accounts normally (browser or bootstrapper)
+
+### Option 2: Run From Source
+```bash
+START.bat
+```
+
+---
+
+## 📦 Requirements (Source Code)
+
+- Windows 10 / 11
+
+- Python 3.9+
+
+- Required libraries:
+```
+pip install psutil requests pillow pyperclip
+```
+
+**Additional requirements:**
+
+- handle64.exe (Sysinternals Handle tool)
+
+Must be located in:
+
+- handle/handle64.exe
+
+---
+
+##🧠 Notes
+
+- No code injection
+
+- No Roblox memory modification
+
+- Uses process & handle management only
+
+- Designed to be as safe and stable as possible
+
+---
+
+![MultiBlox Demo](https://cdn.discordapp.com/attachments/1437646588859383889/1450229350933860484/python_eUQjVebckg.png?ex=6941c6d5&is=69407555&hm=4d63d7ee5dd461fbba629e22a635ff7a71362e106ca7b659f4c7169cfee45f92)
 
 ---
 
@@ -99,18 +262,6 @@ Roblox locks certain handles to prevent multiple sessions. MultiBlox uses handle
 
 ---
 
-## 🎮 How to Use MultiBlox
-
-1. Open MultiBlox using `START.bat`  
-2. Open any browser (Chrome, Edge, Firefox, Opera, etc.)  
-3. Log into a Roblox account and press **Play**  
-4. Repeat in another browser or private window for additional accounts  
-5. MultiBlox automatically handles session isolation
-
-➡️ **You can open as many Roblox sessions as you want**, without logging out other accounts.
----
-
----
 ## ⭐️ Star this repository
 
 Please star this repository to support me, it takes 2 seconds 😊
