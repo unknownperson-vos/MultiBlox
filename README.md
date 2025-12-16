@@ -1,9 +1,9 @@
 ![Image](https://cdn.discordapp.com/attachments/1437646588859383889/1448514190762442762/wp642dwad9383.jpg?ex=693b8977&is=693a37f7&hm=3c0dbbd2d33ba20c6aa208f6985edadf6720bfd1faf400e2917d8c1b43adff54)
 
+[![Video Showcase](https://img.shields.io/badge/Watch%20Video-red?logo=youtube)](https://www.youtube.com/watch?v=EJARcRClG44)
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%2F11-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
-[![Video Showcase](https://img.shields.io/badge/Watch%20Video-red?logo=youtube)](https://www.youtube.com/watch?v=EJARcRClG44)
 ![GitHub all releases](https://img.shields.io/github/downloads/unknownperson-vos/MultiBlox/total)
 
 [![Download](https://img.shields.io/badge/Download-Latest-blue?style=for-the-badge&logo=github)](https://github.com/unknownperson-vos/MultiBlox/releases/latest/download/MultiBlox.zip)
