@@ -4,6 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%2F11-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord)](https://discord.gg/tMtdpUSrdM)
 ![GitHub all releases](https://img.shields.io/github/downloads/unknownperson-vos/MultiBlox/total)
 
 [![Download](https://img.shields.io/badge/Download-Latest-blue?style=for-the-badge&logo=github)](https://github.com/unknownperson-vos/MultiBlox/releases/latest/download/MultiBlox.zip)
