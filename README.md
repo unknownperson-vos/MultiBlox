@@ -1,4 +1,4 @@
-![Image](https://cdn.discordapp.com/attachments/1437646588859383889/1448514190762442762/wp642dwad9383.jpg?ex=693b8977&is=693a37f7&hm=3c0dbbd2d33ba20c6aa208f6985edadf6720bfd1faf400e2917d8c1b43adff54)
+![Image](data/assets/multibloxokay.png)
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%2F11-green)
