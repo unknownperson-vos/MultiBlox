@@ -48,6 +48,7 @@ Link : https://discord.gg/tMtdpUSrdM
 
 ## ✨ Features
 
+- ✅ Bypasses 773 teleportation error
 - ✅ Bypasses Roblox single-instance limitations automatically
 - ✅ Allows running unlimited Roblox accounts simultaneously (system dependent)
 - ✅ Automatically detects new Roblox processes in real time
