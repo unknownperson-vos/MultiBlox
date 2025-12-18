@@ -1,0 +1,11 @@
+New MultiBlox Update
+
+--> 773 teleportation fix <--
+You can now teleport place without getting hit with 773 error
+This is not 100% consistent, but does work most of the time
+
+--> Added Stats <--
+You can now track your own stats and title achievements by clicking on "View My Stats
+
+--> removed auto-updater <--
+You will still get notified when a new update drops, but not automatically updated.

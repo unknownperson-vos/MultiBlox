@@ -1,0 +1,17 @@
+{
+    "features": {
+        "mutant_closer": false,
+        "quarantine_installers": true,
+        "save_logs": false,
+        "force_handle_closure": true,
+        "low_cpu_mode": true
+    },
+    "custom_scripts": {
+        "on_roblox_open": [],
+        "on_roblox_close": []
+    },
+    "custom_regex": {
+        "singletonEvent": [],
+        "singletonMutex": []
+    }
+}

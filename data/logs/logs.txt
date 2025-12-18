@@ -1,0 +1,9 @@
+[Logs]
+
+Logs will show as (example):
+
+20251214_1413_YSKDYQr.txt
+
+20251214 ---> 	2025 12 14 (December 14th 2025)
+1413 	 ---> 	14:13 (2:13pm)
+YSKDYQr  ---> 	random string
