@@ -10,7 +10,7 @@
 
 [![Download](https://img.shields.io/badge/Download-Latest-blue?style=for-the-badge&logo=github)](https://github.com/unknownperson-vos/MultiBlox/releases/latest/download/MultiBlox.zip)
 
-# ![icon](data/assets/multilogoblox.png) MultiBlox
+# ![icon](data/assets/multilogoblox.png) MultiBlox v0.0.6
 
 **MultiBlox** is an advanced, beginner-friendly **Roblox multi-instance manager** written in Python with a full graphical interface.  
 It allows you to run **multiple Roblox accounts at the same time** by automatically handling Roblox’s singleton restrictions, monitoring processes in real-time, and giving you deep insight into each running instance.
